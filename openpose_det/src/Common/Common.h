@@ -27,7 +27,7 @@ using hiai::ImageData;
 define error code for HIAI_ENGINE_LOG
 **/
 #define USE_DEFINE_ERROR 0x6001
-#define FRAME_LENGTH 50
+#define FRAME_LENGTH 30
 
 
 enum {

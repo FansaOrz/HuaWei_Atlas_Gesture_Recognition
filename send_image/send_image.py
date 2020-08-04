@@ -17,7 +17,7 @@ def read_capture():
     success, frame = cap.read()
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    ssh.connect("192.168.1.177",  22, "HwHiAiUser", "Mind@123")
+    ssh.connect("192.168.0.2",  22, "HwHiAiUser", "Mind@123")
     # 打开SSH端口
     sftp = ssh.open_sftp()
     Atlas_path = "HIAI_DATANDMODELSET/workspace_mind_studio/data/"
