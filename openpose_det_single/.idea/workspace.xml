@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd3d5101-40a1-43a1-9219-40ffc4f65e48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/HuaWei_Atlas_Gesture_Recognition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/ImagePreProcess/ImagePreProcess.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/ImagePreProcess/ImagePreProcess.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/MindInferenceEngine/MindInferenceEngine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/MindInferenceEngine/MindInferenceEngine.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/MindInferenceEngineGesture/MindInferenceEngineGesture.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/MindInferenceEngineGesture/MindInferenceEngineGesture.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/device/CMakeFiles/Device.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/DataInput/DataInput.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/DataInput/DataInput.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/SaveFilePostProcess/SaveFilePostProcess.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/SaveFilePostProcess/SaveFilePostProcess.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/SaveFilePostProcessGesture/SaveFilePostProcessGesture.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/SaveFilePostProcessGesture/SaveFilePostProcessGesture.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Host.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/main.dir/Main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/main.dir/Main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/intermediates/host/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/outputs/libDevice.so" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/outputs/libDevice.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/outputs/libHost.so" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/outputs/libHost.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/build/outputs/main" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/build/outputs/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/resource/data/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/resource/data/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/run/out/graph.config" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/run/out/graph.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/run/out/graph.config.host" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/run/out/graph.config.host" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/run/out/libDevice.so" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/run/out/libDevice.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/run/out/libHost.so" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/run/out/libHost.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/run/out/main" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/run/out/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/src/Common/Common.h" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/src/Common/Common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/src/DataInput/DataInput.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/src/DataInput/DataInput.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/src/ImagePreProcess/ImagePreProcess.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/src/ImagePreProcess/ImagePreProcess.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/src/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/src/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/src/MindInferenceEngine/MindInferenceEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/src/MindInferenceEngine/MindInferenceEngine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/src/MindInferenceEngineGesture/MindInferenceEngineGesture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/src/MindInferenceEngineGesture/MindInferenceEngineGesture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/src/SaveFilePostProcess/SaveFilePostProcess.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/src/SaveFilePostProcess/SaveFilePostProcess.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/src/SaveFilePostProcessGesture/SaveFilePostProcessGesture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/src/SaveFilePostProcessGesture/SaveFilePostProcessGesture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../openpose_det/src/graph.config" beforeDir="false" afterPath="$PROJECT_DIR$/../openpose_det/src/graph.config" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MindInferenceEngine/MindInferenceEngine.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1446">
+              <caret line="403" column="6" selection-start-line="403" selection-start-column="6" selection-end-line="403" selection-end-column="6" />
+              <folding>
+                <element signature="e#4141#6274#0" />
+                <element signature="e#6665#7457#0" />
+                <element signature="e#7923#8815#0" />
+                <element signature="e#9053#9207#0" />
+                <element signature="e#9412#10069#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataInput/DataInput.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6820">
+              <caret line="310" column="38" selection-start-line="310" selection-start-column="38" selection-end-line="310" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ImagePreProcess/ImagePreProcess.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2274">
+              <caret line="350" column="111" selection-start-line="350" selection-start-column="111" selection-end-line="350" selection-end-column="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Common/Common.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SaveFilePostProcess/SaveFilePostProcess.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="174" column="44" selection-start-line="174" selection-start-column="44" selection-end-line="174" selection-end-column="44" />
+              <folding>
+                <element signature="n#!!block;n#SaveFilePostProcess::Init#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/graph.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1408">
+              <caret line="64" column="109" selection-start-line="64" selection-start-column="109" selection-end-line="64" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2596">
+              <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>frameIdToName</find>
+      <find>motion_data_new</find>
+      <find>SendBatch</find>
+      <find>inputbuffer</find>
+      <find>cout</find>
+      <find>ERRORE</find>
+      <find>ERRORERROR</find>
+      <find>ERRORERR</find>
+      <find>temp_aa</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/DataInput/DataInput.h" />
+        <option value="$PROJECT_DIR$/src/SaveFilePostProcess/SaveFilePostProcess.h" />
+        <option value="$PROJECT_DIR$/src/Common/Common.h" />
+        <option value="$PROJECT_DIR$/src/SaveFilePostProcessGesture/SaveFilePostProcessGesture.cpp" />
+        <option value="$PROJECT_DIR$/src/ImagePreProcess/ImagePreProcess.cpp" />
+        <option value="$PROJECT_DIR$/src/MindInferenceEngine/MindInferenceEngine.cpp" />
+        <option value="$PROJECT_DIR$/src/MindInferenceEngineGesture/MindInferenceEngineGesture.cpp" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/DataInput/DataInput.cpp" />
+        <option value="$PROJECT_DIR$/src/Main.h" />
+        <option value="$PROJECT_DIR$/src/Main.cpp" />
+        <option value="$PROJECT_DIR$/src/graph.config" />
+        <option value="$PROJECT_DIR$/src/SaveFilePostProcess/SaveFilePostProcess.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1056" />
+    <option name="y" value="79" />
+    <option name="width" value="1358" />
+    <option name="height" value="1370" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="openpose_det_single" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openpose_det_single" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openpose_det_single" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openpose_det_single" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openpose_det_single" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openpose_det_single" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openpose_det_single" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openpose_det_single" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openpose_det_single" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openpose_det_single" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DataInput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openpose_det_single" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openpose_det_single" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MindInferenceEngine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openpose_det_single" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openpose_det_single" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SaveFilePostProcess" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/AscendProjects/MyApp" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AscendAppConfigurationType" factoryName="Ascend App" hostip="192.168.1.2">
+      <method v="2" />
+    </configuration>
+    <configuration name="openpose_det" type="AscendAppConfigurationType" factoryName="Ascend App" hostip="192.168.1.2">
+      <method v="2">
+        <option name="ToolBeforeAscendAppRunTask" enabled="false" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd3d5101-40a1-43a1-9219-40ffc4f65e48" name="Default Changelist" comment="" />
+      <created>1594021345807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594021345807</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1056" y="79" width="1358" height="1370" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15523738" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1333879" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Log" order="7" weight="0.17610551" />
+      <window_info anchor="bottom" id="Output" order="8" weight="0.29557797" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.45499182" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15572716" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32893717" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Log" order="7" weight="0.17610551" />
+      <window_info anchor="bottom" id="Output" order="8" weight="0.29557797" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.45539176" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/DataInput/DataInput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SaveFilePostProcess/SaveFilePostProcess.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/data/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/data/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/data/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/data/21.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SaveFilePostProcessGesture/SaveFilePostProcessGesture.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/MindInferenceEngineGesture/MindInferenceEngineGesture.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/DataInput/DataInput.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6820">
+          <caret line="310" column="38" selection-start-line="310" selection-start-column="38" selection-end-line="310" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/Common.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" column="109" selection-start-line="64" selection-start-column="109" selection-end-line="64" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2596">
+          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MindInferenceEngine/MindInferenceEngine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1446">
+          <caret line="403" column="6" selection-start-line="403" selection-start-column="6" selection-end-line="403" selection-end-column="6" />
+          <folding>
+            <element signature="e#4141#6274#0" />
+            <element signature="e#6665#7457#0" />
+            <element signature="e#7923#8815#0" />
+            <element signature="e#9053#9207#0" />
+            <element signature="e#9412#10069#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImagePreProcess/ImagePreProcess.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2274">
+          <caret line="350" column="111" selection-start-line="350" selection-start-column="111" selection-end-line="350" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/data/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SaveFilePostProcess/SaveFilePostProcess.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="174" column="44" selection-start-line="174" selection-start-column="44" selection-end-line="174" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!block;n#SaveFilePostProcess::Init#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
