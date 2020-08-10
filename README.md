@@ -1,11 +1,12 @@
 # HuaWei_Atlas_Gesture_Recognition
 ## 项目介绍
 本项目主要为在华为Atlas200DK开发板上部署OpenPose模型以及动作识别模型。通过OpenPose识别人体骨架关键点的位置信息，并将识别结果组成序列发送到动作识别Engine中分辩人体的动作，以达到机器人根据人的动作做出相应的动作。
-### 开发环境
-MindStudio1.32版
+
+目前本项目中包含了两个版本，其中，“openpose_det”为1.32（HIAI）版本，“gesturedetection”为1.73（ACL）版本
+## openpose_det版本说明
 ### Graph结构
 DataInput（读取图片数据）->ImagePreProcess（图片预处理）->MindInferenceEngine（OpenPose识别引擎）->SaveFilePostProcess（识别结果处理）->MindInferenceEngine_pose（动作识别引擎处理动作识别结果，与机器人通信）
-## 使用教程
+### 使用教程
  * 下载模型:[模型下载链接](
 https://drive.google.com/drive/folders/1PlTvGIgjrBD1w8bT5bzsIki-xEjjn4R1?usp=sharing)
 
@@ -14,3 +15,9 @@ https://drive.google.com/drive/folders/1PlTvGIgjrBD1w8bT5bzsIki-xEjjn4R1?usp=sha
  * 按照MindStudio教程部署到Atlas 200DK中，具体请参考[MindStudio手册](https://www.huaweicloud.com/ascend/doc/mindstudio/2.1.0(beta)/zh/zh-cn_topic_0200347877.html)
  * 修改send_image/send_image.py文件，可以选择识别本地的视频文件或者实时的摄像头文件
  * 终端ssh连接Atlas，运行openpose_det项目，PC运行send_image.py，即可看到实时的识别效果
+## gesturedetection版本说明
+### 使用教程
+* 下载模型:模型下载链接
+其中pose_deploy_final.om是使用MindStudio1.73转换的OpenPose原始模型，stgcn_fps30_sta_ho_ki432.om为自己训练的动作识别模型。
+* 将两个模型导入项目
+* 使用send_image/send_image.py进行照片传输，同时可以使用send_image/show_image.py实时显示骨架识别结果
