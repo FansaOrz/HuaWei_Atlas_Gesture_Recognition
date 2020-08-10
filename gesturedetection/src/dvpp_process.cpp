@@ -23,6 +23,7 @@
 #include "dvpp_jpegd.h"
 #include "dvpp_process.h"
 
+
 using namespace std;
 
 DvppProcess::DvppProcess():isInitOk_(false), dvppChannelDesc_(nullptr) {
