@@ -1,0 +1,8 @@
+prefix=/home/robot/Desktop/connection_ws/src/connection_node/cmake-build-debug/devel
+
+Name: connection_node
+Description: Description of connection_node
+Version: 0.0.0
+Cflags: -I/home/robot/Desktop/connection_ws/src/connection_node/include
+Libs: -L/home/robot/Desktop/connection_ws/src/connection_node/cmake-build-debug/devel/lib 
+Requires: message_runtime geometry_msgs nav_msgs roscpp rospy std_msgs

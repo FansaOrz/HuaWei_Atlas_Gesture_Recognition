@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robot/Desktop/connection_ws/src/connection_node/cmake-build-debug/devel/setup.sh

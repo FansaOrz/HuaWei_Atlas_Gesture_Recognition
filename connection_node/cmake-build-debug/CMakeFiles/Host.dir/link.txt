@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libHost.so -o devel/lib/libHost.so CMakeFiles/Host.dir/PracticalSocket/PracticalSocket.cpp.o 

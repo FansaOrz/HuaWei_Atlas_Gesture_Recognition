@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: connection_node
+Description: Description of connection_node
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: message_runtime geometry_msgs nav_msgs roscpp rospy std_msgs
