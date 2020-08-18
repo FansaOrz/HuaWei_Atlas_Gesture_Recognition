@@ -15,7 +15,6 @@
 #include <vector>
 #include <actionlib/client/simple_action_client.h>
 #include <move_base_msgs/MoveBaseAction.h>
-//#include <move_base/>
 
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
 
@@ -36,49 +35,25 @@ public:
     // 目标点的欧拉角
     double goal_roll{}, goal_pitch{}, goal_yaw{};
     // Socket参数
-    int ECHOMAX;     // Longest string to echo
-    char *echoBuffer;         // Buffer for echo string
+    int ECHOMAX;                      // Longest string to echo
+    char *echoBuffer;                 // Buffer for echo string
     int recvMsgSize;                  // Size of received message
     string sourceAddress;             // Address of datagram source
     unsigned short sourcePort;        // Port of datagram source
-    unsigned short echoServPort;     // First arg:  local port
+    unsigned short echoServPort;      // First arg:  local port
     // 每个动作对应的动作代码
     std::map<char, int[2]> mymap;
 
-    connection(const ros::NodeHandle& nh){
-        cout << "11111111111111111111111\n";
-        ECHOMAX = (3);
-        cout << "222222222222222\n";
-
-        if_blocked = (false);
-        cout << "3333\n";
-
-        if_correcting = (false);
-        cout << "444444\n";
-
-        recvMsgSize = (0);
-        cout << "5\n";
-
-        sourceAddress = "";
-        cout << "6\n";
-
-        sourcePort = (0);
-        cout << "7\n";
-
-        echoServPort = (33177);
-        cout << "8\n";
-
+    connection(const ros::NodeHandle& nh):ECHOMAX(3),if_blocked(false),if_correcting(false),recvMsgSize(0),
+                                          sourceAddress(""),sourcePort(0),echoServPort(33177),if_first_sub(true){
         echoBuffer = new char[ECHOMAX];
-        cout << "9\n";
-
-        // 对应动作代码和时间
+        // 对应       动作代码                     时间 s
         mymap['s'][0] = 0;        mymap['s'][1] = 5;
-        mymap['c'][0] = 0;        mymap['c'][1] = 5;
-        mymap['k'][0] = 0;        mymap['k'][1] = 5;
-        mymap['w'][0] = 0;        mymap['w'][1] = 5;
-        mymap['h'][0] = 0;        mymap['h'][1] = 5;
-
-        cout << "11111111111111111111111\n";
+        mymap['c'][0] = 1;        mymap['c'][1] = 5;
+        mymap['k'][0] = 2;        mymap['k'][1] = 5;
+        mymap['w'][0] = 3;        mymap['w'][1] = 5;
+        mymap['h'][0] = 4;        mymap['h'][1] = 5;
+        // 目标点的位姿，需要手动修改
         goal_pose.pose.position.x = 0.0;
         goal_pose.pose.position.y = 0.0;
         goal_pose.pose.position.z = 0.0;
@@ -86,7 +61,6 @@ public:
         goal_pose.pose.orientation.y = 0.0;
         goal_pose.pose.orientation.z = 0.0;
         goal_pose.pose.orientation.w = 0.0;
-        cout << "11111111111111111111111\n";
 
         tf::Quaternion quat;
         tf::quaternionMsgToTF(goal_pose.pose.orientation, quat);
@@ -101,23 +75,30 @@ public:
     // TODO 查看发布的频率
     void statusHandler(const move_base_msgs::MoveBaseActionResult::ConstPtr& resultMsg){
         cout << "aaa\n";
-
     }
 
     // TODO 查看发布的频率
     void poseHandler(const geometry_msgs::PoseStamped::ConstPtr& PoseMsg){
-        double delta_x = PoseMsg->pose.position.x - goal_pose.pose.position.x;
-        double delta_y = PoseMsg->pose.position.y - goal_pose.pose.position.y;
-        double delta_distance = sqrt(pow(delta_x, 2) + pow(delta_y, 2) );
-        double roll, pitch, yaw;
-        tf::Quaternion current_qua;
-        tf::quaternionMsgToTF(PoseMsg->pose.orientation, current_qua);
-        tf::Matrix3x3(current_qua).getRPY(roll, pitch, yaw);
-        // TODO 查看是不是yaw角
-        double delta_yaw = abs(yaw - goal_yaw);
-        // TODO 修改这个阈值
-        if (delta_distance > 0.1 || delta_yaw > 0.1){
-            if_correcting = true;
+        static bool if_first = true;
+        // 保存第一次回调消息内容作为目标点
+        if(if_first){
+            goal_pose.pose = PoseMsg->pose;
+            if_first = false;
+        } else {
+            // 判断是否需要矫正（包括位置和姿态）
+            double delta_x = PoseMsg->pose.position.x - goal_pose.pose.position.x;
+            double delta_y = PoseMsg->pose.position.y - goal_pose.pose.position.y;
+            double delta_distance = sqrt(pow(delta_x, 2) + pow(delta_y, 2) );
+            double roll, pitch, yaw;
+            tf::Quaternion current_qua;
+            tf::quaternionMsgToTF(PoseMsg->pose.orientation, current_qua);
+            tf::Matrix3x3(current_qua).getRPY(roll, pitch, yaw);
+            // TODO 查看是不是yaw角
+            double delta_yaw = abs(yaw - goal_yaw);
+            // TODO 修改这个阈值
+            if (delta_distance > 0.1 || delta_yaw > 0.1){
+                if_correcting = true;
+            }
         }
     }
 
@@ -148,11 +129,6 @@ public:
                 // 暂停这一动作对应的秒数
                 sleep(mymap[echoBuffer[0]][1]);
 
-//                // 查看一下新的数据，判断是否要进行位姿矫正
-//                ros::spinOnce();
-//                // TODO 频率之后要调整 或者删除
-//                ros::Rate r(100);
-//                r.sleep();
                 // 如果需要矫正     以下if判断进行矫正
                 if(if_correcting){
                     // 开始踏步
@@ -167,8 +143,10 @@ public:
                     naviGoal.target_pose.pose.position = goal_pose.pose.position;
                     naviGoal.target_pose.pose.orientation = goal_pose.pose.orientation;
                     mc_.sendGoal(naviGoal);
+                    // 直到导航结束再跳出循环，接收下一次指令
                     for(;;){
                         if(mc_.getState() != actionlib::SimpleClientGoalState::SUCCEEDED){
+                            // 暂停0.5秒
                             usleep(500000);
                         } else{
                             if_correcting = false;
@@ -207,14 +185,6 @@ int main(int argc, char **argv) {
 
     // 用于接收动作识别工程的消息，进行中继
     C.start_connecting();
-
-
-//    cout << "111\n";
-//    ret = pthread_create(&tids[1], NULL, say_hello, NULL);
-//    cout << "111\n";
-//    ret = pthread_create(&tids[2], NULL, say_hello, NULL);
-//    cout << "111\n";
-//    ros::spin();
 
     return 0;
 }
